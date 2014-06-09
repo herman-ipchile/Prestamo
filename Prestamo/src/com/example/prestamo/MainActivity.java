@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 	}
 	
 	public void capturar(View v){
-		
+		// captura de persona
 		p = new Persona();
 		p.setRut(rut.getText().toString());
 		int telef= Integer.parseInt(numeroTelefono.getText().toString());
